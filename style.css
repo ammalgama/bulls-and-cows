@@ -1,0 +1,83 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url("cow.png");
+	background-repeat: no-repeat;
+	background-position: 700px 0px;
+	font-family: "Comic Sans";
+}
+
+.container, .history {
+	display: inline-block;
+	min-height: 300px;
+	padding: 30px;
+	vertical-align: top;
+}
+
+.container {
+	position: fixed;
+	width: 430px;
+	height: 100%;
+	padding-top: 150px;
+	border-right: 2px solid black;
+	background: rgb(254,238,176);
+}
+
+.history {
+	margin-top: 120px;
+	margin-left: 440px;
+	width: 420px;
+}
+
+.name {
+	width: 280px;
+	margin: auto;
+	margin-bottom: 30px;
+	font-size: 28px;
+	text-align: center;
+}
+input {
+	height: 30px;
+	margin-right: 5px;
+	border-radius: 5px;
+}
+
+label {
+	font-size: 20px;
+}
+
+button {
+	margin-top: 20px;
+	margin-right: 10px;
+	height: 30px;
+	width: 90px;
+	font-family: ‘Comic Sans MS’;
+}
+
+#message {
+	margin-top: 30px;
+	font-size: 20px;
+}
+
+table {
+	margin-left: 40px;
+	border-collapse: collapse;
+	font-size: 20px;
+}
+
+th, td {
+	border: 1px solid black;
+	padding: 10px;
+}
+
+.hidden {
+	display: none;
+}
+
+.no-hidden {
+	display: table;
+}
